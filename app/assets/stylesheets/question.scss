@@ -4,6 +4,15 @@
 
 $gray: #f4f4f4;
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 form  {
   display: flex;
 }
@@ -21,7 +30,12 @@ input[type=submit] {
 }
 
 .question, .answer {
-  background-color :$gray;
+  // background-color :$gray;
+  border-left: lightgrey solid 5px;
+}
+
+.answer {
+  background-color: lightyellow;
 }
 
 .question p, .answer p {
